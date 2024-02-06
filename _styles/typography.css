@@ -1,0 +1,210 @@
+/* resets */
+* {
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+/* HEADER NAV */
+.nav-container {
+    font-size: 20px;
+
+}
+
+.nav-container ul li:hover {
+    color: green;
+}
+
+.logo {
+    font-family: 'Rancho', cursive;
+    font-size: 96px;
+}
+
+
+/* Section - Banner */
+/* txt left tipografia */
+.txtLeft a {
+    text-align: center;
+}
+
+.txtLeft h2 {
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+/* destaque do texto */
+.vegan {
+    color: green;
+}
+
+/* icons */
+.item p {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.arrow i {
+    font-size: 3.5em;
+
+}
+
+/* SECTION - especialidades */
+section.especialidades {
+    color: #000;
+
+
+}
+
+.titleEsp h2 {
+    font-family: 'Rancho', cursive;
+    font-size: 3em;
+}
+
+.titleEsp h3 {
+    font-size: 2em;
+    color: #E76F51;
+}
+
+/* SECTION SOBREMESAS */
+.sobremesaLeft {
+    text-align: start;
+}
+
+.sobremesaLeft h3 {
+    /* sobremesa */
+    font-size: 24px;
+    color: #E76F51;
+}
+
+.sobremesaLeft h3::after {
+    display: block;
+    background-color: #000000;
+    height: 1px;
+    width: 100%;
+    margin: 20px auto 10px;
+    content: " ";
+}
+
+.sobremesaLeft h4::after {
+    display: block;
+    background-color: #000000;
+    height: 1px;
+    width: 70%;
+    margin: 20px 2px 10px;
+    content: " ";
+}
+
+.sobremesaLeft h4 {
+    /* TÍTULO */
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.sobremesaLeft p {
+    /* 150$ */
+    font-size: 24px;
+    padding: 30px 0;
+
+}
+
+.descricao {
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* link fazer pedido */
+.sobremesaLeft a {
+    font-size: 20px;
+}
+
+/* almoço tipografia */
+.dinnerRight {
+    text-align: start;
+}
+
+.dinnerRight h3 {
+    font-size: 24px;
+    color: #E76F51;
+}
+
+.dinnerRight h3::after {
+    display: block;
+    background-color: #000000;
+    height: 1px;
+    width: 100%;
+    margin: 20px auto 10px;
+    content: " ";
+}
+
+.dinnerRight h4 {
+    /* TÍTULO */
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.dinnerRight h4::after {
+    display: block;
+    background-color: #000000;
+    height: 1px;
+    width: 70%;
+    margin: 20px 2px 10px;
+    content: " ";
+}
+
+.dinnerRight p {
+    font-size: 24px;
+    padding: 30px 0;
+}
+
+.dinnerRight a {
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+.titulo {
+    color: #FEFEFE;
+    font-family: Rancho;
+    font-size: 96px;
+}
+
+footer h4{
+    font-size: 24px;
+    color: #E76F51;
+}
+
+
+
+.footerCenter h4::after {
+    display: block;
+    background-color: #fff;
+    height: 1px;
+    width: 70%;
+    /*O content sempre tem que ser informado. Caso não tenha um texto ele fica vazio*/
+    content: "";
+    margin: 20px 2px 10px;
+}
+
+.footerRight h4::after {
+    display: block;
+    background-color: #fff;
+    height: 1px;
+    width: 70%;
+    content: "";
+    margin: 20px 2px 10px;
+}
+
+.end{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.end i{
+    font-size: 2em;
+    
+}
+
+
+

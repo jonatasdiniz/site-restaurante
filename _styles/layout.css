@@ -1,0 +1,329 @@
+/* resets */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.geral {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER - NAV */
+.nav-container ul {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    list-style: none;
+    line-height: 105px;
+}
+
+/* Section - Banner */
+
+/* left text layout */
+.txtLeft {
+
+    margin-left: 120px;
+    margin-top: 178px;
+
+
+}
+
+.txtLeft a {
+
+    text-decoration: none;
+    color: black;
+
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    line-height: 30px;
+    width: 120px;
+}
+
+.txtLeft a:hover {
+
+    background: #E76F51;
+    color: white;
+
+}
+
+.links {
+    width: 30%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10em;
+
+}
+
+
+/* div dos icones do lado esquerdo (left icons) */
+
+.icons {
+    font-size: 2.2em;
+    display: flex;
+    width: 30%;
+    margin-top: 136px;
+    justify-content: space-around;
+    cursor: pointer;
+
+
+}
+
+.icons i:hover {
+    border-radius: 10px;
+    color: green;
+}
+
+.n2 {
+
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.space {
+    margin: auto 56px;
+}
+
+/* conteudo do lado direito (img e arrows) */
+.contentRight {
+    margin-left: 50%;
+    max-width: 50%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+
+}
+
+/* img */
+
+.contentRight img {
+    width: 70%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* arrows*/
+
+/* arrows da img */
+.arrow {
+    color: rgba(90, 180, 15, 0.65);
+    position: absolute;
+    bottom: 3%;
+    right: 45%;
+    cursor: pointer;
+    width: 25%;
+
+}
+
+.arrow i:hover {
+    color: white;
+}
+
+/* SECTION - ESPECIALIDADES */
+
+section.especialidades {
+    background: #EFEFEF;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* sobremesa */
+div.sobremesa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+    padding-top: 65px;
+
+}
+
+/* textos do lado esquerdo da tela */
+div.sobremesaLeft {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sobremesaLeft h3 {
+    display: start;
+
+    padding-bottom: 32px;
+}
+
+/* img do lado direito */
+.sobremesaRight {
+
+    max-width: 30%;
+    margin: 0 auto;
+
+
+}
+
+.sobremesaRight img {
+    box-shadow: 2px 2px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 90%;
+
+}
+
+/* button */
+.sobremesaLeft a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 14px;
+    margin-left: -16px;
+}
+
+.sobremesaLeft a:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    background-color: #2A9D8F;
+    border-radius: 15px;
+
+    color: #EFEFEF;
+}
+
+/* ALMOÇO - SOPA ESQUISITA */
+
+.dinner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+    padding-top: 100px;
+    padding-bottom: 64px;
+}
+
+.dinnerLeft {
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+.dinnerLeft img {
+    box-shadow: 2px 2px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 90%;
+}
+
+.dinnerRight {
+    display: start;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.dinnerRight a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 14px;
+    margin-left: -16px;
+}
+
+.dinnerRight a:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    background-color: #2A9D8F;
+    border-radius: 15px;
+    color: #EFEFEF;
+}
+
+/* FOOTER - LAYOUT */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    
+}
+
+.footerLeft {
+    display: start;
+    align-items: center;
+    width: 25%;
+    margin: 0 auto;
+
+
+}
+
+.footerLeft p {
+    padding-top: 45px;
+}
+
+.iconsFooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+
+.iconsFooter i {
+    padding-top: 45px;
+    cursor: pointer;
+}
+
+.footerCenter {
+    display: start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footerCenter {
+    display: start;
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+.footerCenter h4 {
+    padding-top: 24px;
+}
+
+
+.footerCenter p {
+    padding-top: 32px;
+
+}
+
+.footerRight {
+    width: 25%;
+}
+
+.footerRight iframe {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    height: 240px;
+}
+
+.pin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tel {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.tel i {
+    margin-left: 5px;
+    display: inline;
+
+}
+
+.tel p {
+    margin-right: 96px;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+}
